@@ -3,7 +3,7 @@ FROM openjdk:7-jre-alpine
 MAINTAINER jkoan <info@jkoan.de>
 
 #non-interactive installation
-ENV DEBIAN_FRONTEND=noninteractive BUNGEECORD_HOME /bungeecord ENV SPIGOT_HOME=/minecraft SPIGOT_VER=latest
+ENV DEBIAN_FRONTEND=noninteractive BUNGEECORD_HOME=/bungeecord SPIGOT_HOME=/minecraft SPIGOT_VER=latest
 
 COPY rootfs /
 
